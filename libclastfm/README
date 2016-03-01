@@ -1,0 +1,5 @@
+libclastfm is an unofficial C-API for the Last.fm web service written with libcurl. This library was written because the official CBS Interactive Last.fm library requires Nokia QT, which is usually not desired when using Gnome based distros such as RedHat/Fedora or Ubuntu.
+
+This library supports much more than basic scrobble submission. You can send shouts, fetch Album covers and much more.
+
+Due to the naming conflict with the official last.fm library, this library will install as "libclastfm". Link with -lclastfm and #include "clastfm.h" 

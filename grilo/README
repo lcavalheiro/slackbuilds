@@ -1,0 +1,45 @@
+Grilo is a framework focused on making media discovery and browsing easy for application developers.
+
+More precisely, Grilo provides:
+
+    A single, high-level API that abstracts the differences among various media content providers, allowing application developers to integrate content from various services and sources easily.
+    A collection of plugins for accessing content from various media providers. Developers can share efforts and code by writing plugins for the framework that are application agnostic.
+    A flexible API that allows plugin developers to write plugins of various kinds. 
+
+At this moment, Grilo has plugins supporting various services, including:
+
+    YouTube
+    Jamendo
+    Flickr
+    Vimeo
+    Apple trailers
+    Podcasts
+    UPnP/DLNA
+    Last.FM album art
+    ...and more 
+
+Grilo is free software, licensed under the LGPL. 
+
+Default build doesn't include debug symbols. To include them, pass DEBUG=yes to the slackbuild
+
+DEBUG=yes ./grilo.SlackBuild
+
+Default build doesn't enable any documentation. To build docs with gtk-doc, pass DOCS_GTK=yes to the slackbuild
+
+DOCS_GTK=yes ./grilo.SlackBuild
+
+To build pdf docs, pass DOCS_PDF=yes to the slackbuild
+
+DOCS_PDF=yes ./grilo.SlackBuild
+
+To build html docs, pass DOCS_HTML=yes to the slackbuild
+
+DOCS_HTML=yes ./grilo.SlackBuild
+
+Test UI is a a simple playground application that you can use to test the framework and its plugins. By default it won't be built. To build Test UI pass TEST_UI=yes to the slackbuild
+
+TEST_UI=yes ./grilo.SlackBuild
+
+Vala is an optional dependency. To use it, pass VALA=yes to the slackbuild
+
+VALA=yes ./grilo.SlackBuild
