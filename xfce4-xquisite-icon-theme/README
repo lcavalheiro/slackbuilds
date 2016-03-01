@@ -1,0 +1,29 @@
+xfce4-xquisite-icon-theme
+
+INTRO
+
+This is a repacking of Xquisite icon theme available at http://xfce-look.org/content/show.php?action=content&content=69735.
+
+DESCRIPTION
+
+An icon theme based on prior Exquisites and modified from various sources, this time more set up around Xfce.
+
+CHANGELOG
+
+0.4.6
+Fixed some xfpm and removable media icons.
+
+0.4.5
+Removed "C:" from terminal icons, finally. Few other changes.
+
+0.4.4
+Fixed broken download icons for Google Chrome and a few others.
+
+0.4.1
+Fixed xfce logout icons (hopefully). Fixed a few other icons with wrong sizes. Copied over main Open Office app icons to Libre Office.
+
+0.4
+Some fixes for xfce menu. Other changes and fixes for nautilus. Now usable in (current) gnome.
+
+0.2
+Fixed a few errors.

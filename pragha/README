@@ -1,0 +1,65 @@
+Pragha is a Lightweight Music Player for GNU/Linux, based on Gtk and sqlite.
+It is completely written in C, constructed to be fast, light, and
+simultaneously tries to be complete without obstructing the daily work. ;)
+
+A tiny history of the project.?
+Consonance, An excellent player emerged in the archlinux forums, was
+discontinued. The author, Sacamano said in his blog:
+ "Which doesn't mean that it won't be maintained. I would still be fixing
+bugs,
+  but major feature additions are not in the pipeline, because I have
+completed
+  all that I wanted to see in Consonance. It has been a fun project. :)"
+
+Well.. Dissonance is the project to continue developing Consonance, and its
+result is Pragha Music Player. A New reproducer of music.. ;)
+
+Main features:
+ * Full integration with GTK+3, but always completely independent of
+   gnome or xfce.
+ * Two panel design inspired by Amarok 1.4. Library and current playlist.
+ * Library with multiple views, according to tags or folder structure.
+ * Search, filter and queue songs on current playlist.
+ * Play and edit tags of mp3, m4a, ogg, flac, asf, wma, and ape files.
+   Limited only by codecs installed and taglib version used.
+ * Playlist management: Export M3U and read M3U, PLS, XSPF and WAX
+   playlists.
+ * Playback control with command line.
+
+Extensible by plugins:
+ * AcoustID: Get metadata from AcoustID service.
+ * CD-ROM: Play audio CDs and identify them on CDDB.
+ * DLNA Server: Share your playlist on a DLNA server.
+ * DLNA Renderer: Play music from a DLNA server.
+ * Gnome-Media-Keys: Control pragha with gnome-media-keys daemon.
+ * Global Hotkeys: Control pragha with multimedia keys.
+ * Last.fm: Scrobbling, love, unlove song, and append similar song to get
+   related playlists.
+ * MPRIS2: Control pragha with mpris2 interface.
+ * Mtp Devices: Basic Management of MTP devices.
+ * Notification: Show a notification when changing songs.
+ * Removable media: Detect removable media and scan it.
+ * Song-info: Get Artist info, Lyrics and Album art of your songs.
+ * Get radios: Search radios on TuneIn service.
+
+Required packages (available on https://slackbuilds.org):
+ * gst0-plugins-bad
+ * gst0-plugins-ugly
+ * gst-plugins-bad
+ * gst-plugins-ugly
+ * gst0-python
+ * gst-python
+ * gst-libav
+
+Optional packages (available on https://slackbuilds.org, they are auto
+detected by the script):
+ * libpeas
+ * totem-pl-parser
+ * jmtpfs
+ * mtpfs
+ * gmtp
+
+Optional dependencies that aren't on https://slackbuilds.org
+ * rygel-server >= 2.2
+ * grilo >= 0.2
+ * libclastfm
