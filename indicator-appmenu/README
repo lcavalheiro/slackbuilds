@@ -1,5 +1,0 @@
-indicator-appmenu
-
-An indicator to host the menus from an application.
-
-This requires libindicator
