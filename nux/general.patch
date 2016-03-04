@@ -1,0 +1,46 @@
+--- Nux/WindowThread.h	2014-02-24 15:14:54.000000000 -0300
++++ Nux/WindowThread_new.h	2016-03-04 04:08:42.650964645 -0300
+@@ -23,6 +23,9 @@
+ #ifndef WINDOWTHREAD_H
+ #define WINDOWTHREAD_H
+ 
++#include <c++/5.3.0/iostream>
++#include <c++/5.3.0/memory>
++
+ #include "TimerProc.h"
+ 
+ #ifdef NUX_GESTURES_SUPPORT
+--- Nux/Nux.h	2015-08-02 11:24:16.000000000 -0300
++++ Nux/Nux_new.h	2016-03-04 04:09:01.685377812 -0300
+@@ -23,6 +23,9 @@
+ #ifndef NUX_H
+ #define NUX_H
+ 
++#include <c++/5.3.0/iostream>
++#include <c++/5.3.0/memory>
++
+ #include "NuxCore/NuxCore.h"
+ #include "NuxCore/Error.h"
+ #include "NuxCore/FilePath.h"
+--- Nux/TimerProc.h	2013-08-14 19:08:42.000000000 -0300
++++ Nux/TimerProc_new.h	2016-03-04 04:10:30.632313896 -0300
+@@ -22,6 +22,8 @@
+ 
+ #ifndef TIMERPROC_H
+ #define TIMERPROC_H
++#include <c++/5.3.0/iostream>
++#include <c++/5.3.0/memory>
+ 
+ namespace nux
+ {
+--- Nux/InputMethodIBus.h	2013-09-27 15:07:56.000000000 -0300
++++ Nux/InputMethodIBus_new.h	2016-03-04 04:30:08.364724945 -0300
+@@ -25,7 +25,7 @@
+ #define INPUTMETHODIBUS_H
+ 
+ #include <Nux/TextEntry.h>
+-#include <ibus.h>
++#include <ibus-1.0/ibus.h>
+ 
+ namespace nux
+ {

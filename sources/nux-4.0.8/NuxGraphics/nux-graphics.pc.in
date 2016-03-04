@@ -1,0 +1,12 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: NuxGraphics
+Description: Core OpenGL graphics functions for Nux
+Version: @VERSION@
+Libs: -L${libdir} -lnux-graphics-@NUX_API_VERSION@
+Cflags: -I${includedir}/Nux-@NUX_API_VERSION@
+
+Requires: glib-2.0 cairo libpng gdk-pixbuf-2.0 nux-core-@NUX_API_VERSION@ @GL_PKGS@ xxf86vm xinerama @GEIS_PKGS@

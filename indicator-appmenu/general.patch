@@ -1,0 +1,35 @@
+--- src/gdk-get-func.c	2012-09-26 09:10:03.000000000 -0300
++++ src/gdk-get-func_new.c	2016-03-04 01:26:04.155711426 -0300
+@@ -38,8 +38,8 @@
+ #include <netinet/in.h>
+ #include <unistd.h>
+ */
+-#include <gdk/gdk.h>
+-#include <gdk/gdkx.h>
++#include <gtk-3.0/gdk/gdk.h>
++#include <gtk-3.0/gdk/gdkx.h>
+ 
+ #include "MwmUtil.h"
+ /*
+--- src/hud-cli.c	2012-09-26 09:10:03.000000000 -0300
++++ src/hud-cli_new.c	2016-03-04 03:39:08.890996113 -0300
+@@ -20,14 +20,17 @@
+ */
+ 
+ #include <glib.h>
+-#include <gio/gunixinputstream.h>
+-#include <gtk/gtk.h>
++#include <gio-unix-2.0/gio/gunixinputstream.h>
++#include <gtk-3.0/gtk/gtk.h>
+ #include <unistd.h>
+ #include <stdio.h>
+ #include <readline/readline.h>
+ #include <readline/history.h>
+ #include <stdlib.h>
+ #include <curses.h>
++#include <string.h>
++#include <pango/pango.h>
++#include <pango/pango-attributes.h>
+ 
+ #include "shared-values.h"
+ #include "hud.interface.h"
