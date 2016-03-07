@@ -1,0 +1,5 @@
+pCloud is a personal online storage space for one's memorable photos and videos, favorite music or important work documents.
+
+Create an account at https://www.pcloud.com. For a limited time, you can use https://www.pcloud.com/onedrive-gift/ website to create your account, then earn more 40GB backing your OneDrive data on your pCloud account.
+
+This slackbuild script does merely a repacking of .deb package provided by pCloud.

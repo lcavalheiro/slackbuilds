@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.
+# Line up the first '|' above the ':' following the base package name, and
+# the '|' on the right side marks the last column you can put a character in.
+# You must make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+      |-----handy-ruler------------------------------------------------------|
+pCloud: pCloud (cloud storage client)
+pCloud: 
+pCloud: pCloud is a personal online storage space for one's memorable photos
+pCloud: and videos, favorite music or important work documents. 
+pCloud: Create an account at https://www.pcloud.com. For a limited time, you
+pCloud: can use https://www.pcloud.com/onedrive-gift/ website to create your
+pCloud: account, then earn more 40GB backing your OneDrive data on your
+pCloud: pCloud account.
+pCloud: 
+pCloud: This slackbuild script does merely a repacking of .deb package
+pCloud: provided by pCloud.
