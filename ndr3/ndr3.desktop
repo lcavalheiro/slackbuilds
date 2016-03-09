@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Name=Nihil Dice Roller v3
+Comment=Graphical multiplatform dice roller
+Exec=ndr3
+Icon=ndr3
+Terminal=false
+StartupWMClass=ndr3
+Type=Application
+Categories=Games;
+MimeType=application/x-dice-roller;
+X-Desktop-File-Install-Version=0.22

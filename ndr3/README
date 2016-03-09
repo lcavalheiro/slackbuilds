@@ -1,0 +1,3 @@
+The Nihil Dice Roller is a graphical, multiplatform dice roller written in Lazarus/FPC. It features a wide range of dice (from 2 to 999 sides) and supports several systems like White Wolf's oWoD and nWoD; West End Games' D6, and Grey Ghost's Fudge.
+
+This script only repacks pre-compiled tarballs available at project website.

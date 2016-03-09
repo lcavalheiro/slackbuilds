@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.
+# Line up the first '|' above the ':' following the base package name, and
+# the '|' on the right side marks the last column you can put a character in.
+# You must make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+    |-----handy-ruler------------------------------------------------------|
+ndr3: Nihil Dice Roller v3 (graphical, multiplatform dice roller)
+ndr3: 
+ndr3: The Nihil Dice Roller is a graphical, multiplatform dice roller
+ndr3: written in Lazarus/FPC. It features a wide range of dice (from 2 to
+ndr3: 999 sides) and supports several systems like White Wolf's oWoD and
+ndr3: nWoD; West End Games' D6, and Grey Ghost's Fudge.
+ndr3:
+ndr3: This is a repacking of pre-compiled tarball available at project
+ndr3: website, https://sourceforge.net/projects/nihildiceroller/
+ndr3:
+ndr3:
